@@ -1,0 +1,13 @@
+@import "./variables.css";
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: var(--padding-large);
+  height: var(--header-height);
+  overflow: hidden;
+}
+
+.header img {
+  display: block;
+}

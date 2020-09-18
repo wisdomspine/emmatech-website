@@ -1,0 +1,7 @@
+@import "./preset.css";
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e1e2e1;
+}

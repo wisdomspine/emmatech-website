@@ -1,0 +1,19 @@
+@import "./variables.css";
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: var(--padding-large);
+  height: var(--header-height);
+  overflow: hidden;
+  background-color: var(--card-color);
+}
+
+.header img {
+  display: block;
+  height: 100%;
+}
+
+.header nav ul {
+  list-style: none;
+}
