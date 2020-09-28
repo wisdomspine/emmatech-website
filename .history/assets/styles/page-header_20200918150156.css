@@ -8,7 +8,9 @@
   overflow: hidden;
   background-color: var(--card-color);
 }
-
+header > * {
+  display: inline;
+}
 .header img {
   display: inline-block;
   height: 100%;
@@ -17,9 +19,9 @@
 .header nav ul {
   list-style: none;
   display: flex;
-  flex-flow: row nowrap;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .header nav ul li {
@@ -28,7 +30,4 @@
 
 .header nav ul a {
   color: var(--accent-link-color);
-}
-.header nav ul a:hover {
-  opacity: 0.9;
 }

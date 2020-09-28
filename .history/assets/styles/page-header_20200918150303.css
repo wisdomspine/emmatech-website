@@ -29,6 +29,3 @@
 .header nav ul a {
   color: var(--accent-link-color);
 }
-.header nav ul a:hover {
-  opacity: 0.9;
-}

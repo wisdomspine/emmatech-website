@@ -8,7 +8,9 @@
   overflow: hidden;
   background-color: var(--card-color);
 }
-
+header > * {
+  display: inline;
+}
 .header img {
   display: inline-block;
   height: 100%;
@@ -28,7 +30,4 @@
 
 .header nav ul a {
   color: var(--accent-link-color);
-}
-.header nav ul a:hover {
-  opacity: 0.9;
 }
