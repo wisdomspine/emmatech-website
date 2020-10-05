@@ -1,0 +1,21 @@
+@import "./variables.css";
+
+.home-slide {
+  height: calc(100vh - var(--header-height));
+  overflow: hidden;
+}
+
+.home-slide .container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-slide .container img {
+  max-width: 500px;
+}
+
+.home-slide .container article {
+  max-width: 500px;
+}

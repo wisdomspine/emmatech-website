@@ -12,7 +12,7 @@
 .header .container {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .header img {

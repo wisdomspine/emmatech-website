@@ -1,0 +1,43 @@
+@import "./variables.css";
+
+.home-slide {
+  height: calc(100vh - var(--header-height));
+  overflow: hidden;
+}
+
+.home-slide>div {
+  height: 100%;
+}
+
+.home-slide>div .container {
+  height: 100%;
+}
+
+.home-slide .container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-slide .container img {
+  max-width: 500px;
+}
+
+.home-slide .container article {
+  max-width: 500px;
+  align-self: flex-start;
+  margin-top: 70px;
+}
+
+.home-slide .container article h1 {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.home-slide .container article h2 {
+  margin-top: 0px;
+  opacity: 0.6;
+  font-weight: normal;
+  font-size: 17px;
+}

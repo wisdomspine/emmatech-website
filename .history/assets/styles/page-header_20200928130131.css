@@ -9,12 +9,6 @@
   background-color: var(--card-color);
 }
 
-.header .container {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-}
-
 .header img {
   display: inline-block;
   height: 100%;

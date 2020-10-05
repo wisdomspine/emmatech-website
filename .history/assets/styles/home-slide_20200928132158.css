@@ -1,0 +1,4 @@
+@import "./variables.css";
+.home-slide {
+  height: calc(1000px - 300px);
+}
