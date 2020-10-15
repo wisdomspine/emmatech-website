@@ -36,13 +36,11 @@
     position: relative;
     top: 350px;
   }
-
   5.5% {
     opacity: 1;
     position: relative;
     top: 0px;
   }
-
   90.8% {
     opacity: 1;
     position: relative;
@@ -56,19 +54,18 @@
   }
 }
 
-
 .home-slide {
   height: calc(100vh - var(--header-height));
-  overflow: hidden;
+  /* overflow: hidden; */
   background: url("../images/Confetti-Doodles.svg");
   background-size: contain;
 }
 
-.home-slide>div {
+.home-slide > div {
   height: 100%;
 }
 
-.home-slide>div .container {
+.home-slide > div .container {
   height: 100%;
 }
 
@@ -81,8 +78,6 @@
 
 .home-slide .container img {
   max-width: 500px;
-  animation-name: slide-img;
-  animation-duration: var(--slide-animation-duration);
 }
 
 .home-slide .container article {
@@ -104,11 +99,12 @@
   color: var(--accent-link-color);
 }
 
-.home-slide .container article {}
+.home-slide .container article {
+}
 
 .home-slide .container article:not(:hover) {
   animation-name: slide-article;
-  animation-duration: var(--slide-animation-duration);
+  animation-duration: 15s;
 }
 
 .home-slide .container article p {

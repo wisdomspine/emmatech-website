@@ -7,7 +7,16 @@
     <title>Emmatech ICT</title>
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <link rel="stylesheet" href="./assets/styles/home-slide.css">
-
+    <script>
+        document.addEventListener("load", function () {
+            alert(90);
+            const divs = document.querySelectorAll(".home-slide > div");
+            let current = 0;
+            divs.forEach(e => {
+                console.log(e);
+            })
+        })
+    </script>
 </head>
 
 <body>
@@ -91,19 +100,5 @@
         </div>
     </section>
 </body>
-<script>
-    const divs = document.querySelectorAll(".home-slide > div");
-    let current = 0;
-    divs.forEach(e => {
-        e.style.display = "none";
-    })
-    divs[(current++) % divs.length].style.display = "block";
-    setInterval(function () {
-        divs.forEach(e => {
-            e.style.display = "none";
-        })
-        divs[(current++) % divs.length].style.display = "block";
-    }, 15000)
-</script>
 
 </html>

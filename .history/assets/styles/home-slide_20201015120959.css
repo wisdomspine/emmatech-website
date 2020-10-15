@@ -56,10 +56,23 @@
   }
 }
 
+@keyframes slide {
+  0% {
+    display: block;
+  }
+
+  33.333333333% {
+    display: none;
+  }
+
+  100% {
+    display: none;
+  }
+}
 
 .home-slide {
   height: calc(100vh - var(--header-height));
-  overflow: hidden;
+  /* overflow: hidden; */
   background: url("../images/Confetti-Doodles.svg");
   background-size: contain;
 }

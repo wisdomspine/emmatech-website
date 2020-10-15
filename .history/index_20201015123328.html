@@ -99,9 +99,6 @@
     })
     divs[(current++) % divs.length].style.display = "block";
     setInterval(function () {
-        divs.forEach(e => {
-            e.style.display = "none";
-        })
         divs[(current++) % divs.length].style.display = "block";
     }, 15000)
 </script>
