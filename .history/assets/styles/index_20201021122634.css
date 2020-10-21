@@ -1,0 +1,23 @@
+@import "./variables.css";
+
+.service-section{
+    background-color:white;
+}
+
+.home-services{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.home-services figure{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.home-services figure figcaption{
+    font-size: 18px;
+    line-height: 27px;
+}

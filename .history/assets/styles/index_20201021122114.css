@@ -1,0 +1,6 @@
+@import "./variables.css";
+
+.home-services{
+    display: flex;
+    flex-flow: row;
+}

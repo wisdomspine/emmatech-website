@@ -20,12 +20,4 @@
 
 .button.filled.accent{
   background-color: var(--accent-color);
-  color: white;
-}
-
-.button.outline.accent{
-  border-color: var(--accent-color);
-  border-width: 1px;
-  border-style: solid;
-  color: var(--accent-color);
 }

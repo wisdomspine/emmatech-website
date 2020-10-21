@@ -15,17 +15,5 @@
   font-size: 14px;
   line-height: 21px;
   padding: 10px  14px;
-  border-radius: 100px;
-}
-
-.button.filled.accent{
-  background-color: var(--accent-color);
-  color: white;
-}
-
-.button.outline.accent{
-  border-color: var(--accent-color);
-  border-width: 1px;
-  border-style: solid;
-  color: var(--accent-color);
+  background-color: red;
 }

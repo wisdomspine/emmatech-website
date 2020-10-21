@@ -1,0 +1,13 @@
+@import "./variables.css";
+
+.home-services{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.home-services figure{
+    display: flex;
+    flex-flow: column;
+}

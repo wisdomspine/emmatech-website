@@ -1,0 +1,17 @@
+@import "./preset.css";
+@import "./page-header.css";
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.button{
+  font-size: 14px;
+  line-height: 21px;
+}
