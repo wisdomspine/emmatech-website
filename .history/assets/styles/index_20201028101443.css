@@ -44,49 +44,14 @@
     position: relative;
     margin: 0px;
     margin-left: 30px;
-    border-radius: 300px;
-    overflow: hidden;
-    
 }
 
 .home-portfolio .content figure img{
     max-height: 100%;
-    border-radius: inherit;
-}
-
-.home-portfolio {
-    padding-top: 18px;  
-    padding-bottom: 44px;
-    background: linear-gradient(to bottom, white, var(--bg-color));
-}
-
-.home-portfolio header>p{
-    margin-bottom: 34px;
 }
 
 .home-portfolio .content figure figcaption{
     height: 100%;
     position: absolute;
     top: 0;
-    display: flex;
-    flex-flow: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    padding: 14px;
-    backdrop-filter: brightness(40%);
-    align-items: center;
-    border-radius: inherit;
-    transition: all  1s;
-    
-    
-}
-
-.home-portfolio .content figure:not(:hover)  figcaption{
-    opacity: 0;
-}  
-
-.home-portfolio .content figure figcaption h3{
-    color: #ffffff;
-    text-align: center;
-    line-height: 1.8;
 }

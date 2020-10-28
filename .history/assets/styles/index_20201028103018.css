@@ -44,9 +44,8 @@
     position: relative;
     margin: 0px;
     margin-left: 30px;
-    border-radius: 300px;
+    border-radius: 7px;
     overflow: hidden;
-    
 }
 
 .home-portfolio .content figure img{
@@ -76,14 +75,8 @@
     backdrop-filter: brightness(40%);
     align-items: center;
     border-radius: inherit;
-    transition: all  1s;
-    
     
 }
-
-.home-portfolio .content figure:not(:hover)  figcaption{
-    opacity: 0;
-}  
 
 .home-portfolio .content figure figcaption h3{
     color: #ffffff;

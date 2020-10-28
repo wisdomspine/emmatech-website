@@ -46,7 +46,6 @@
     margin-left: 30px;
     border-radius: 300px;
     overflow: hidden;
-    
 }
 
 .home-portfolio .content figure img{
@@ -76,13 +75,20 @@
     backdrop-filter: brightness(40%);
     align-items: center;
     border-radius: inherit;
-    transition: all  1s;
-    
+
     
 }
 
+.home-portfolio .content figure:hover  figcaption{
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+}
+
 .home-portfolio .content figure:not(:hover)  figcaption{
-    opacity: 0;
+    display: none;
+    transition-property: all;
+    transition-duration: 5s;
 }  
 
 .home-portfolio .content figure figcaption h3{
