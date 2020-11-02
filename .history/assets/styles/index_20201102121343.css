@@ -1,0 +1,104 @@
+@import "./variables.css";
+
+.service-section{
+    background-color:white;
+    padding-top: 84px;
+    padding-bottom: 134px;
+}
+
+.home-services{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;;
+}
+
+.home-services figure{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.home-services figure figcaption{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.service-section .readmore{
+    float: right;
+    margin-top: 24px;
+}
+
+.home-portfolio .content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow-x: hidden;
+    height: 250px;
+    margin-left: -20px;
+}
+.home-portfolio .content figure{
+    height: 100%;
+    position: relative;
+    margin: 0px;
+    margin-left: 30px;
+    border-radius: 300px;
+    overflow: hidden;
+    
+}
+
+.home-portfolio .content figure img{
+    max-height: 100%;
+    border-radius: inherit;
+}
+
+.home-portfolio {
+    padding-top: 18px;  
+    padding-bottom: 44px;
+    background: linear-gradient(to bottom, white, var(--bg-color));
+}
+
+.home-portfolio header>p{
+    margin-bottom: 34px;
+}
+
+.home-portfolio .content figure figcaption{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 14px;
+    backdrop-filter: brightness(40%);
+    align-items: center;
+    border-radius: inherit;
+    transition: all  1s;
+    
+    
+}
+
+.home-portfolio .content figure:not(:hover)  figcaption{
+    opacity: 0;
+}  
+
+.home-portfolio .content figure figcaption h3{
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.home-contact{
+    background-color: #ffffff;
+    padding: 44px 0px;
+}
+
+.home-contact .home-contact-content{
+    display: flex;
+}
+.home-contact .home-contact-content>div{
+    width: 50%;
+}

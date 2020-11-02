@@ -211,6 +211,5 @@ textarea{
 .home-contact .home-contact-content>div:last-child ul li a:hover{
     animation-name: animate-shadow;
     animation-timing-function: ease-in-out;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+    animation-duration: 2s;
 }
